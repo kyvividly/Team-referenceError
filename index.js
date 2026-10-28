@@ -8,7 +8,7 @@ Research - Vincent H
 Example:
   input - console.log(`${variable}`)
   Output - *Script snippet #2:3 Uncaught ReferenceError: variableEasy is not defined at *Script snippet #2:3:16
-/*
+
 
 Research - Ky
   1) ReferenceError is an error that occurs when a variable that doesn't exist nor has been initalized is being referenced (in console.log, etc)
@@ -17,3 +17,8 @@ Research - Ky
   4) When you encounter the error, 
     check for if any variables in your code that you're using has been initalized, 
     if it is then check if whereever you refeneced the variable everything is typed and spelled correctly.
+
+Example:
+  Input: console.log(`${word}`)
+  Output: referenceError:1 Uncaught ReferenceError: word is not defined at referenceError:1:16
+/*
