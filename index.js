@@ -21,4 +21,4 @@ Research - Ky
 Example:
   Input: console.log(`${word}`)
   Output: referenceError:1 Uncaught ReferenceError: word is not defined at referenceError:1:16
-/*
+/
